@@ -3,8 +3,9 @@ import Sidenav from './partials/SideNav';
 import Topnav from './partials/Topnav';
 import axios from '../utils/axios';
 import Header from './partials/Header';
-import HorizontalCards from './partials/Horizontalcards';
+import HorizontalCards from './partials/HorizontalCards';
 import Dropdown from './partials/Dropdown';
+import Loading from './Loading';
 
 export const Home = () => {
   document.title = 'Homepage';
@@ -53,7 +54,7 @@ export const Home = () => {
       </div>
     </>
   ) : (
-    <h1>Loading</h1>
+    <Loading/>
   );
 };
 
