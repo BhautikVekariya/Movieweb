@@ -47,7 +47,7 @@ export const Home = () => {
         <div className=' p-5 flex justify-between'>
 
           <h1 className='text-3xl font-semibold text-zinc-400'>Trending</h1>
-          <Dropdown title="Filter" options={["tv", "movie", 'all']} />
+          <Dropdown title="Filter" options={["tv", "movie", 'all']} func={(e) => setcategory(e.target.value)} />
         </div>
         <HorizontalCards data={trending} func={setcategory} />
       </div>
