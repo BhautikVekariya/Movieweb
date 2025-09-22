@@ -27,7 +27,7 @@ SCSDB: MOVIES is a sleek and powerful movie browsing platform built as a fronten
 
 ## Connect with Me:
 Let's connect on LinkedIn to discuss this project or any future collaboration ideas:  
-[https://www.linkedin.com/in/tejas-more-6b6ab4257](https://www.linkedin.com/in/tejas-more-6b6ab4257)
+[https://www.linkedin.com/in/bhautik-vekariya-ab8250245/](https://www.linkedin.com/in/bhautik-vekariya-ab8250245/)
 
 ## Screenshots:
 Here’s a sneak peek into what the project looks like:
