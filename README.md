@@ -23,7 +23,7 @@ SCSDB: MOVIES is a sleek and powerful movie browsing platform built as a fronten
 
 ## 🚀 Live Demo
 
-🔗 [View Live Site](https://scsdb-movies-ten.vercel.app/)
+🔗 [View Live Site](https://moviewereact.netlify.app/)
 
 ## Connect with Me:
 Let's connect on LinkedIn to discuss this project or any future collaboration ideas:  
