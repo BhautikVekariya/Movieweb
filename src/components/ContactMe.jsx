@@ -30,9 +30,9 @@ function ContactMe() {
               />
             </div>
             <div className="text-center md:text-left">
-              <h2 className="text-2xl font-bold text-white mb-2">Tejas More</h2>
+              <h2 className="text-2xl font-bold text-white mb-2">Bhautik Vekariya</h2>
               <p className="text-zinc-400">
-                Third Year Computer Science Student
+                Bachelor of Engineering in Information Technology Student
               </p>
               <p className="text-zinc-400 mt-1">
                 Passionate about Web Development
@@ -47,7 +47,7 @@ function ContactMe() {
             About Me
           </h3>
           <p className="text-zinc-300 leading-relaxed">
-            I'm a third-year Computer Science student passionate about web
+            I'm a Graduated Inforamtion Tehnology student passionate about web
             development. Currently, I'm focusing on
             building modern web applications. I love solving complex problems and creating user-friendly
             interfaces that make a difference.
@@ -61,29 +61,29 @@ function ContactMe() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <a
-              href="mailto:tejasmore477@gmail.com"
+              href="mailto:vekariyabhavik3209@gmail.com"
               className="flex items-center gap-3 text-zinc-300 hover:text-[#6556CD] transition-colors"
             >
               <i className="ri-mail-line text-xl"></i>
-              <span>tejasmore477@gmail.com</span>
+              <span>vekariyabhavtik3209@gmail.com</span>
             </a>
             <a
-              href="https://github.com/TejasMore477"
+              href="https://github.com/BhautikVekariya"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-zinc-300 hover:text-[#6556CD] transition-colors"
             >
               <i className="ri-github-line text-xl"></i>
-              <span>github.com/TejasMore477</span>
+              <span>https://github.com/BhautikVekariya</span>
             </a>
             <a
-              href="https://linkedin.com/in/TejasMore477"
+              href="https://www.linkedin.com/in/bhautikvekariya/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-zinc-300 hover:text-[#6556CD] transition-colors"
             >
               <i className="ri-linkedin-line text-xl"></i>
-              <span>linkedin.com/in/TejasMore477</span>
+              <span>https://www.linkedin.com/in/bhautikvekariya/</span>
             </a>
 
           </div>
@@ -96,11 +96,16 @@ function ContactMe() {
           </h3>
           <div className="flex flex-wrap gap-2">
             {[
-              "JavaScript",
-              "React",
               "HTML/CSS",
+              "JavaScript",
               "Tailwind CSS",
+              "Bootstrap",
+              "React",
+              "Python",
+              "Django",
+              "My Sql",
               "Git",
+              "GitHub",
               "REST APIs",
             ].map((skill) => (
               <span

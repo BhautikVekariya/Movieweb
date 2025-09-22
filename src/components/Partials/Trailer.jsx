@@ -25,9 +25,9 @@ function Trailer() {
       )}
       <div
         onClick={() => navigate(-1)}
-        className="absolute top-[5%] right-[50%] cursor-pointer"
+        className="absolute top-[7%] right-[7%] cursor-pointer ri-close-circle-line text-[35px]"
       >
-        <i className="text-4xl font-light ri-close-circle-line"></i>
+        {/* <i className="text-4xl font-light ri-close-circle-line"></i> */}
       </div>
     </div>
   );

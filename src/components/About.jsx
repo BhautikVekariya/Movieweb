@@ -161,7 +161,7 @@ function About() {
                 <h3 className="text-lg">Email: </h3>
                 <span className="text-zinc-300 text-base">
                   {" "}
-                  tejasmore660@gmail.com
+                  vekariyabhavtik3209@gmail.com
                 </span>
               </li>
               <li className="mb-3">

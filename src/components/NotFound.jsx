@@ -8,7 +8,7 @@ function NotFound() {
         onClick={() => navigate(-1)}
         className="cursor-pointer text-center absolute top-10 right-1/2 translate-x--1/2 translate-y--1/2"
       >
-        <i className="text-4xl font-light ri-close-circle-line"></i>
+        
       </div>
 <div>
 <h1 className="text-center font-bold text-6xl lg:text-8xl text-[#6556CD]">
