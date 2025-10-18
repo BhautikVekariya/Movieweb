@@ -198,7 +198,7 @@ function PeopleDetails() {
               <HorizontalCards data={Info.combinedCredits.cast} />
 
               {/* work and rols */}
-              <div className="flex  items-center sm:justify-start sm:gap-10 justify-between mb-4">
+              <div className="flex  items-center  justify-between mb-4">
                 <h3 className="sm:text-2xl text-xl font-semibold">Work and Roles</h3>
                 <div className="w-1/2 sm:w-fit">
                   <DropDown

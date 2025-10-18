@@ -1,34 +1,38 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import { useSelector } from "react-redux";
-import { useLocation } from "react-router";
-import { useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router";
 import NotFound from "../NotFound";
 
 function Trailer() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
-  const catogery = pathname.includes("movie") ? "MovieInfo" : "TvInfo";
-  const { videos } = useSelector((state) => state[catogery].Info);
+  const category = pathname.includes("movie") ? "MovieInfo" : "TvInfo";
+  const { videos } = useSelector((state) => state[category].Info);
 
   return (
-    <div className="w-full h-screen bg-[rgba(0,0,0,0.9)] absolute left-0 top-0 grid place-content-center">
+    <div className="w-full h-screen bg-[rgba(0,0,0,0.9)] fixed left-0 top-0 flex justify-center items-center z-50">
       {videos ? (
-        <ReactPlayer
-          controls
-          height={700}
-          width={1300}
-          url={`https://www.youtube.com/watch?v=${videos.key}`}
-        />
+        <div className="relative">
+          {/* React Player */}
+          <ReactPlayer
+            controls
+            height={600}
+            width={1200}
+            url={`https://www.youtube.com/watch?v=${videos.key}`}
+          />
+
+          {/* Close Button positioned on top-right of the video */}
+          <button
+            onClick={() => navigate(-1)}
+            className="absolute -top-3 -right-3 flex items-center justify-center w-8 h-8 rounded-full bg-red-600 hover:bg-red-700 text-white cursor-pointer transition duration-300 shadow-lg"
+          >
+            <i className="ri-close-line text-2xl"></i>
+          </button>
+        </div>
       ) : (
         <NotFound />
       )}
-      <div
-        onClick={() => navigate(-1)}
-        className="absolute top-[7%] right-[7%] cursor-pointer ri-close-circle-line text-[35px]"
-      >
-        {/* <i className="text-4xl font-light ri-close-circle-line"></i> */}
-      </div>
     </div>
   );
 }
